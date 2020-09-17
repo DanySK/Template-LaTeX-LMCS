@@ -15,6 +15,7 @@ The file being built is the LMCS guide for authors.
 2. Rename `instructions.tex` to your preference
 2. Rename it also inside `build.gradle.kts`
 3. Rename the project inside `settings.gradle.kts`
+3. Rename the file in the ignore file `.gitignore`
 3. Further Configure the build inside `build.gradle.kts` following instructions on [https://github.com/DanySK/gradle-latex](https://github.com/DanySK/gradle-latex)
 4. Test your build locally by `./gradlew buildLatex`
 6. Add the `GITHUB_TOKEN` environment variable from the Travis-CI web interface `token` entry in the `deployment` section of `.travis.yml`, following [the instructions for deployment on GitHub releases provided by Travis](https://docs.travis-ci.com/user/deployment-v2/providers/releases/).
