@@ -1,13 +1,13 @@
-# LaTeX template repository with continuous integration  
+# LaTeX template repository for LMCS  
 
-[![Build Status](https://travis-ci.org/DanySK/Template-LaTeX-CI.svg?branch=master)](https://travis-ci.org/DanySK/Template-LaTeX-CI)
+[![Build Status](https://travis-ci.com/DanySK/Template-LaTeX-LMCS.svg?branch=master)](https://travis-ci.com/DanySK/Template-LaTeX-LMCS)
 
-This repository is meant to be used as template for quickly starting LaTeX projects,
+This repository is meant to be used as template for quickly starting LMCS papers,
 having them built on a continuous integrator, and having them quickly deployed in GitHub releases.
 
 The build system is based on Gradle, using [the latex-gradle plugin](https://github.com/DanySK/gradle-latex).
 
-The file being built is a LaTeX quick reference by [Mark Gates](http://www.icl.utk.edu/~mgates3/), kudos to him.
+The file being built is the LMCS guide for authors.
 
 ## Using the project
 
